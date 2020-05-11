@@ -1,0 +1,219 @@
+[Appium] Welcome to Appium v1.17.0
+[Appium] Non-default server args:
+[Appium]   address: 127.0.0.1
+[Appium]   sessionOverride: true
+[Appium] Appium REST http interface listener started on 127.0.0.1:4723
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk","appWaitActivity":"co.you.youapp.ui.base.SingleFragmentActivity","appWaitPackage":"co.you.youapp.dev","automationName":"Flutter","autoGrantPermissions":"true","platformName":"Android","deviceId":"2DR4C18C05007804","deviceName":"Huawei Y9 2019","version":"9.0.0","platform":"ANDROID"},"capabilities":{"firstMatch":[{"appium:app":"/Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk","appium:appWaitActivity":"co.you.youapp.ui.base.SingleFragmentActivity","appium:appWaitPackage":"co.you.youapp.dev","appium:autoGrantPermissions":"true","appium:automationName":"Flutter","deviceId":"2DR4C18C05007804","appium:deviceName":"Huawei Y9 2019","platform":"ANDROID","platformName":"android","version":"9.0.0"}]}}
+[debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk","appWaitActivity":"co.you.youapp.ui.base.SingleFragmentActivity","appWaitPackage":"co.you.youapp.dev","automationName":"Flutter","autoGrantPermissions":"true","platformName":"Android","deviceId":"2DR4C18C05007804","deviceName":"Huawei Y9 2019","version":"9.0.0","platform":"ANDROID"},null,{"firstMatch":[{"appium:app":"/Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk","appium:appWaitActivity":"co.you.youapp.ui.base.SingleFragmentActivity","appium:appWaitPackage":"co.you.youapp.dev","appium:autoGrantPermissions":"true","appium:automationName":"Flutter","deviceId":"2DR4C18C05007804","appium:deviceName":"Huawei Y9 2019","platform":"ANDROID","platformName":"android","version":"9.0.0"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1589189638198 (17:33:58 GMT+0800 (Hong Kong Standard Time))
+[BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+[BaseDriver]   deviceId
+[BaseDriver]   platform
+[BaseDriver]   version
+[Appium] Appium v1.17.0 creating new FlutterDriver (v0.0.23) session
+[debug] [Appium] There are no active sessions for cleanup
+[debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {
+[debug] [BaseDriver]   "app": "/Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk",
+[debug] [BaseDriver]   "appWaitActivity": "co.you.youapp.ui.base.SingleFragmentActivity",
+[debug] [BaseDriver]   "appWaitPackage": "co.you.youapp.dev",
+[debug] [BaseDriver]   "automationName": "Flutter",
+[debug] [BaseDriver]   "autoGrantPermissions": "true",
+[debug] [BaseDriver]   "platformName": "Android",
+[debug] [BaseDriver]   "deviceId": "2DR4C18C05007804",
+[debug] [BaseDriver]   "deviceName": "Huawei Y9 2019",
+[debug] [BaseDriver]   "version": "9.0.0",
+[debug] [BaseDriver]   "platform": "ANDROID"
+[debug] [BaseDriver] }
+[BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+[BaseDriver]   appWaitActivity
+[BaseDriver]   appWaitPackage
+[BaseDriver]   autoGrantPermissions
+[BaseDriver]   deviceId
+[BaseDriver]   version
+[BaseDriver]   platform
+[BaseDriver] Session created with session id: 342b47f7-5027-4175-8bf0-01d1c68917e3
+[FlutterDriver] Starting an Android proxy session
+[debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {
+[debug] [BaseDriver]   "app": "/Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk",
+[debug] [BaseDriver]   "appWaitActivity": "co.you.youapp.ui.base.SingleFragmentActivity",
+[debug] [BaseDriver]   "appWaitPackage": "co.you.youapp.dev",
+[debug] [BaseDriver]   "automationName": "Flutter",
+[debug] [BaseDriver]   "autoGrantPermissions": "true",
+[debug] [BaseDriver]   "platformName": "Android",
+[debug] [BaseDriver]   "deviceId": "2DR4C18C05007804",
+[debug] [BaseDriver]   "deviceName": "Huawei Y9 2019",
+[debug] [BaseDriver]   "version": "9.0.0",
+[debug] [BaseDriver]   "platform": "ANDROID",
+[debug] [BaseDriver]   "newCommandTimeout": 0
+[debug] [BaseDriver] }
+[BaseDriver] Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
+[BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+[BaseDriver]   deviceId
+[BaseDriver]   version
+[BaseDriver]   platform
+[BaseDriver] Session created with session id: 6304baf1-ac88-47a0-a4d6-5c5951b3e781
+[BaseDriver] Using local app '/Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk'
+[debug] [UiAutomator2] Checking whether app is actually present
+[ADB] Found 3 'build-tools' folders under '/Users/rexwong/Library/Android/sdk' (newest first):
+[ADB]     /Users/rexwong/Library/Android/sdk/build-tools/29.0.2
+[ADB]     /Users/rexwong/Library/Android/sdk/build-tools/28.0.3
+[ADB]     /Users/rexwong/Library/Android/sdk/build-tools/26.0.2
+[ADB] Using 'adb' from '/Users/rexwong/Library/Android/sdk/platform-tools/adb'
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] Connected devices: [{"udid":"2DR4C18C05007804","state":"device"}]
+[AndroidDriver] Using device: 2DR4C18C05007804
+[ADB] Using 'adb' from '/Users/rexwong/Library/Android/sdk/platform-tools/adb'
+[debug] [ADB] Setting device id to 2DR4C18C05007804
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell getprop ro.build.version.sdk'
+[debug] [ADB] Current device property 'ro.build.version.sdk': 28
+[ADB] Getting device platform version
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell getprop ro.build.version.release'
+[debug] [ADB] Current device property 'ro.build.version.release': 9
+[debug] [ADB] Device API level: 28
+[UiAutomator2] Relaxing hidden api policy
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell settings put global hidden_api_policy_pre_p_apps 1'
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell settings put global hidden_api_policy_p_apps 1'
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell settings put global hidden_api_policy 1'
+[debug] [AndroidDriver] Parsing package and activity from app manifest
+[ADB] Package name: 'co.you.youapp.dev'
+[ADB] Main activity name: 'co.you.youapp.ui.magiclink.MagicLinkActivity'
+[debug] [AndroidDriver] Parsed package and activity are: co.you.youapp.dev/co.you.youapp.ui.magiclink.MagicLinkActivity
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 wait-for-device'
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell echo ping'
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell dumpsys package io.appium.settings'
+[debug] [ADB] 'io.appium.settings' is installed
+[debug] [ADB] Getting package info for 'io.appium.settings'
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell dumpsys package io.appium.settings'
+[debug] [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.1.0' >= '3.1.0')
+[debug] [ADB] There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[debug] [ADB] Getting IDs of all 'io.appium.settings' processes
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell 'pgrep --help; echo $?''
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell pgrep -f io\\.appium\\.settings'
+[debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell appops set io.appium.settings android\:mock_location allow'
+[debug] [Logcat] Starting logcat capture
+[debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8202
+[debug] [ADB] Forwarding system: 8202 to device: 6790
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 forward tcp\:8202 tcp\:6790'
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] 'io.appium.uiautomator2.server' is installed
+[debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.5.5' >= '4.5.5')
+[debug] [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.5.apk
+[ADB] Using 'apksigner.jar' from '/Users/rexwong/Library/Android/sdk/build-tools/29.0.2/lib/apksigner.jar'
+[debug] [ADB] Starting apksigner: /Users/rexwong/.sdkman/candidates/java/current/bin/java -Xmx1024M -Xss1m -jar /Users/rexwong/Library/Android/sdk/build-tools/29.0.2/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.5.apk
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB] 
+[debug] [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.5.apk' is signed with the default certificate
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] [ADB] 'io.appium.uiautomator2.server.test' is installed
+[debug] [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[debug] [ADB] Starting apksigner: /Users/rexwong/.sdkman/candidates/java/current/bin/java -Xmx1024M -Xss1m -jar /Users/rexwong/Library/Android/sdk/build-tools/29.0.2/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB] 
+[debug] [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[UiAutomator2] Server packages are not going to be (re)installed
+[debug] [UiAutomator2] Waiting up to 30000ms for services to be available
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell pm list instrumentation'
+[debug] [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug] [ADB] Checking app cert for /Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk
+[debug] [ADB] Starting apksigner: /Users/rexwong/.sdkman/candidates/java/current/bin/java -Xmx1024M -Xss1m -jar /Users/rexwong/Library/Android/sdk/build-tools/29.0.2/lib/apksigner.jar verify --print-certs /Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB] 
+[debug] [ADB] '/Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk' is signed with the default certificate
+[debug] [ADB] Getting install status for co.you.youapp.dev
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell dumpsys package co.you.youapp.dev'
+[debug] [ADB] 'co.you.youapp.dev' is installed
+[debug] [ADB] Getting package info for 'co.you.youapp.dev'
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell dumpsys package co.you.youapp.dev'
+[debug] [ADB] The version name of the installed 'co.you.youapp.dev' is greater or equal to the application version name ('3.6.1' >= '3.6.1')
+[debug] [ADB] There is no need to install/upgrade '/Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk'
+[AndroidDriver] Performing fast reset on 'co.you.youapp.dev'
+[debug] [ADB] Getting install status for co.you.youapp.dev
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell dumpsys package co.you.youapp.dev'
+[debug] [ADB] 'co.you.youapp.dev' is installed
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell am force-stop co.you.youapp.dev'
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell pm clear co.you.youapp.dev'
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell dumpsys package co.you.youapp.dev'
+[debug] [ADB] Retrieving requested permissions
+[debug] [ADB] Retrieved 10 permission(s) from ["requested"] group(s)
+[debug] [ADB] Retrieving granted permissions
+[debug] [ADB] Retrieved 6 permission(s) from ["install","runtime"] group(s)
+[debug] [ADB] Granting permissions ["android.permission.CAMERA","android.permission.READ_EXTERNAL_STORAGE","android.permission.WRITE_EXTERNAL_STORAGE","android.permission.RECORD_AUDIO"] to 'co.you.youapp.dev'
+[debug] [ADB] Got the following command chunks to execute: [["pm","grant","co.you.youapp.dev","android.permission.CAMERA",";","pm","grant","co.you.youapp.dev","android.permission.READ_EXTERNAL_STORAGE",";","pm","grant","co.you.youapp.dev","android.permission.WRITE_EXTERNAL_STORAGE",";","pm","grant","co.you.youapp.dev","android.permission.RECORD_AUDIO",";"]]
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell pm grant co.you.youapp.dev android.permission.CAMERA \; pm grant co.you.youapp.dev android.permission.READ_EXTERNAL_STORAGE \; pm grant co.you.youapp.dev android.permission.WRITE_EXTERNAL_STORAGE \; pm grant co.you.youapp.dev android.permission.RECORD_AUDIO \;'
+[debug] [AndroidDriver] Performed fast reset on the installed 'co.you.youapp.dev' application (stop and clear)
+[debug] [UiAutomator2] Performing shallow cleanup of automation leftovers
+[debug] [UiAutomator2] The following obsolete sessions are still running: ["31f0b1f7-78a8-4659-8f36-4565ac66e2b7"]
+[debug] [UiAutomator2] Cleaning up the obsolete sessions
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell am force-stop io.appium.uiautomator2.server.test'
+[UiAutomator2] Starting UIAutomator2 server 4.5.5
+[UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.5.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","2DR4C18C05007804","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8202/wd/hub/status] with no body
+[WD Proxy] Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8202/wd/hub/status] with no body
+[WD Proxy] Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8202/wd/hub/status] with no body
+[WD Proxy] Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8202/wd/hub/status] with no body
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+[debug] [UiAutomator2] The initialization of the instrumentation process took 4162ms
+[debug] [WD Proxy] Matched '/session' to command name 'createSession'
+[debug] [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8202/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk","appWaitActivity":"co.you.youapp.ui.base.SingleFragmentActivity","appWaitPackage":"co.you.youapp.dev","automationName":"Flutter","autoGrantPermissions":true,"platformName":"Android","deviceId":"2DR4C18C05007804","deviceName":"Huawei Y9 2019","version":"9.0.0","platform":"ANDROID","newCommandTimeout":0},"app":"/Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk","appWaitActivity":"co.you.youapp.ui.base.SingleFragmentActivity","appWaitPackage":"co.you.youapp.dev","automationName":"Flutter","autoGrantPermissions":true,"platformName":"Android","deviceId":"2DR4C18C05007804","deviceName":"2DR4C18C05007804","version":"9.0.0","newCommandTimeout":0,"deviceUDID":"2DR4C18C050078...
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"01e86fd8-f512-434a-ad23-31aa95d5bf54","value":{"sessionId":"01e86fd8-f512-434a-ad23-31aa95d5bf54","capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk","appWaitActivity":"co.you.youapp.ui.base.SingleFragmentActivity","appWaitPackage":"co.you.youapp.dev","automationName":"Flutter","autoGrantPermissions":true,"platformName":"Android","deviceId":"2DR4C18C05007804","deviceName":"Huawei Y9 2019","version":"9.0.0","platform":"ANDROID","newCommandTimeout":0},"app":"/Users/rexwong/Documents/gitrepos/appautomatedtests/apps/app-sit-debug.apk","appWaitActivity":"co.you.youapp.ui.base.SingleFragmentActivity","appWaitPackage":"co.you.youapp.dev","automationName":"Flutter","autoGrantPermissions":true,"platformName":"Android","deviceId":"2DR4C18...
+[WD Proxy] Determined the downstream protocol as 'W3C'
+[debug] [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8202/wd/hub/session/01e86fd8-f512-434a-ad23-31aa95d5bf54/appium/device/info] with no body
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"01e86fd8-f512-434a-ad23-31aa95d5bf54","value":{"androidId":"43f2ae50d5783f9a","manufacturer":"HUAWEI","model":"JKM-LX2","brand":"HUAWEI","apiVersion":"28","platformVersion":"9","carrierName":" CSL ","realDisplaySize":"1080x2340","displayDensity":480,"networks":[{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":null,"isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"TRANSPORT_WIFI","networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":-42,"networkSpecifier":null,"SSID":null}}],"locale":"en_GB","timeZone":"Asia\/Hong_Kong","bluetooth":{"state":"OFF"}}}
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell dumpsys window'
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] Starting 'co.you.youapp.dev/co.you.youapp.ui.magiclink.MagicLinkActivity and waiting for 'co.you.youapp.dev/co.you.youapp.ui.base.SingleFragmentActivity'
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell am start -W -n co.you.youapp.dev/co.you.youapp.ui.magiclink.MagicLinkActivity -S'
+[debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'co.you.youapp.dev' and activity: 'co.you.youapp.ui.base.SingleFragmentActivity' to be focused
+[debug] [ADB] Possible activities, to be checked: 'co.you.youapp.ui.base.SingleFragmentActivity', 'co.you.youapp.dev.co.you.youapp.ui.base.SingleFragmentActivity'
+[debug] [ADB] Getting focused package and activity
+[debug] [ADB] Running '/Users/rexwong/Library/Android/sdk/platform-tools/adb -P 5037 -s 2DR4C18C05007804 shell dumpsys window windows'
+[debug] [ADB] Found package: 'co.you.youapp.dev' and fully qualified activity name : 'co.you.youapp.ui.base.SingleFragmentActivity'
+[debug] [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8202/wd/hub/session/01e86fd8-f512-434a-ad23-31aa95d5bf54/appium/device/pixel_ratio] with body: {}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"01e86fd8-f512-434a-ad23-31aa95d5bf54","value":3}
+[debug] [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8202/wd/hub/session/01e86fd8-f512-434a-ad23-31aa95d5bf54/appium/device/system_bars] with body: {}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"01e86fd8-f512-434a-ad23-31aa95d5bf54","value":{"statusBar":85}}
+[debug] [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+[debug] [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8202/wd/hub/session/01e86fd8-f512-434a-ad23-31aa95d5bf54/window/current/size] with body: {}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"01e86fd8-f512-434a-ad23-31aa95d5bf54","value":{"height":2137,"width":1080}}
+[debug] [FlutterDriver] Deleting Flutter Driver session
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1589189654025 (17:34:14 GMT+0800 (Hong Kong Standard Time))
+[debug] [W3C] Encountered internal error running command: TypeError: Cannot read property 'match' of undefined
+[debug] [W3C]     at Object.exports.processLogToGetobservatory (/usr/local/lib/node_modules/appium/node_modules/appium-flutter-driver/build/driver/lib/sessions/observatory.js:128:9)
+[debug] [W3C]     at Object.exports.getObservatoryWsUri (/usr/local/lib/node_modules/appium/node_modules/appium-flutter-driver/lib/sessions/android.ts:34:21)
+[debug] [W3C]     at Object.exports.startAndroidSession (/usr/local/lib/node_modules/appium/node_modules/appium-flutter-driver/lib/sessions/android.ts:25:28)
+[debug] [W3C]     at FlutterDriver.exports.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-flutter-driver/lib/sessions/session.ts:18:47)
+[debug] [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:358:35)
+[debug] [W3C] Destroying socket connection
+[HTTP] <-- POST /wd/hub/session 500 15903 ms - 579
+[HTTP] 
